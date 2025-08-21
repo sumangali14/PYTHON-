@@ -1,0 +1,7 @@
+a = ["suma", "reddy", "moni", "nanni"]
+cgpa = [66, 34, 78, 98, 65]
+arrear = [0, 1, 2, 1, 0]
+# Display names with arrear == 0 and cgpa > 60
+for i in range(len(a)):
+    if arrear[i] == 0 and cgpa[i] > 60:
+        print(a[i])
