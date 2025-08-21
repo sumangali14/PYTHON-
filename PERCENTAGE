@@ -1,0 +1,9 @@
+a=["suma","reddy","moni","nanni"]
+mark=[[21,38,99,100],[52,63,76,45],[34,45,54,54],[66,87,87,76]]
+per=[]
+for i in mark:
+    d=sum(i)//4
+    per.append(d)
+for i in range(4):
+    print("{}. {} : {} %".format(i+1,a[i],per[i]))
+
