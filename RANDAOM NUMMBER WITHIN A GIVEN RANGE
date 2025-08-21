@@ -1,0 +1,5 @@
+import random
+start = 1
+end = 10
+random_numbers = random.sample(range(start, end + 1), 5)
+print(random_numbers)
