@@ -1,0 +1,57 @@
+#print numbers
+a = int(input())
+count = 0
+while count < a:
+    count=count+1
+    print(count)
+#print natural number
+a=int(input())
+count=0
+while count<a:
+    print("0")
+    count=count+1
+#print average of number
+a=int(input())
+sum=0
+count=0
+while count<a:
+    count=count+1
+    sum=sum+count
+print(sum/a)
+
+a=int(input())
+count=0
+while count<a:
+    count=count+1
+    print(count**3)
+#solid rectange
+m=int(input())
+n=int(input())
+count=0
+while count<m:
+    print("* "*n)
+    count=count+1
+#print 10 no after  N
+a=int(input())
+count=0
+while count<10:
+    a=a+1
+    print(a)
+    count=count+1
+#M numbers after N
+m=int(input())
+n=int(input())
+count=0
+while count<n:
+    print(m)
+    count=count+1
+#n number
+m=int(input())
+n=int(input())
+count=0
+sum=0
+while count<n:
+    sum=sum+m
+    m=m+1
+    count=count+1
+print(sum)
