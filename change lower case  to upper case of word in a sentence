@@ -1,0 +1,5 @@
+sen = input()
+word = sen[0:6]
+word_sen_uppercase=word.upper()
+output=word_sen_uppercase + sen[6:]
+print(output)
